@@ -6,6 +6,8 @@ body{
     margin: 0;
 }
 
+/*Styling for header*/
+
 .main-header{
     background-color: #2ddf5c;
     width: 100%;
@@ -139,4 +141,8 @@ button{
 button:hover{
     color: #0e4f1f;
     background-color: #ffffff;
+}
+
+#key-features{
+    background-color: #0e4f1f;
 }
