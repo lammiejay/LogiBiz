@@ -6,75 +6,19 @@ body{
     margin: 0;
 }
 
-/*Styling for header*/
-
-.main-header{
-    background-color: #2ddf5c;
-    width: 100%;
-    padding: 15px 10px;
-}
-
-.main-header > div{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.brand_logo{
-    text-decoration: none;
-    color: #0e4f1f;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.main-nav{
-    display: inline-block;
-    vertical-align: middle;
-    width: calc(100% - 116px);
-}
-
-.main-nav-links{
-    padding: 0;
-    list-style: none;
-    text-align: right;
-}
-
-.main-nav-link{
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.main-nav-link > a{
-    text-decoration: none;
-    color: #0e4f1f;
-}
-
-.main-nav-link-cta > a{
-    background-color: rgb(255, 0, 0);
-    color: #ffffff;
-    padding: 8px 16px;
-    border-radius: 16px;
-}
-
-.main-nav-link > a:hover{
-    color: #ffffff;
-    border-bottom: 2px #ffffff solid;
-}
-
-.main-nav-link-cta > a:hover{
-    color: red;
-    background-color: #ffffff;
-    border: none;
-}
-
 .overview{
     background-color: rgba(255, 41, 41, 0.7);
+    background-image: url(pexels.jpeg);
+    background-size: cover;
     height: 480px;
     color: #ffffff;
     padding: 16px;
+    margin-top: 50px;
 }
 
 .overview > h1{
     font-weight: bolder;
+    padding-top: 370px;
 }
 
 .plans-title{
@@ -94,6 +38,7 @@ body{
     background-color: #d5ffdc;
     padding: 16px;
     margin: 8px;
+    border-radius: 10px;
 }
 
 .plan-title{
@@ -136,13 +81,70 @@ button{
     padding: 8px;
     font-weight: bold;
     border: 2px solid;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 button:hover{
     color: #0e4f1f;
     background-color: #ffffff;
 }
-
+/*key features*/
 #key-features{
+    background-color: rgb(245, 82, 82);
+    text-align: center;
+    width: 100%;
+    margin: 50px 0;
+    padding: 15px 10px;
+}
+
+.key-features-title{
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.key-features-list{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 75%;
+    border: 2px red;
+    vertical-align: middle;
+}
+
+.key-feature{
+    display: inline-block;
+    margin: 10px 75px;
+    padding: 8px;
+    border: 2px  black;
+}
+
+.key-feature div svg{
+    color: #3a459b;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+.key-feature p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 25px;
+}
+
+.key-feature .middle{
+    text-align: center;
+}
+
+footer{
     background-color: #0e4f1f;
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
 }

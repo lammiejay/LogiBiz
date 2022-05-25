@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+}
+/* STYLING FOR STATHAM*/
+
+
+.cstmr1-img{
+    padding: 10px;
+    border: 2px solid red;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.statham{
+   text-align: right;
+   font-family: Calibri;
+   padding-top: 50px;
+   padding-left: 100px;
+   align-items: center;
+}
+
+.statham h1{
+    margin-bottom: -20px;
+    color: brown;
+    font-size: 40px;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+.statham h5{
+    color: skyblue;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+.statham p{
+    font-size: 25px;
+}
+
+.cstmr1{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    border: 2px black;
+}
+
+
+.cstmr2{
+    width: 100%;
+    display: flex;
+    border: 2px black;
+    padding: 0 16px;
+    align-items: center;
+}
+
+.cstmr2-img{
+    margin-left: 200px;
+    margin-right: -100px;
+    padding: 2px;
+    border: 2px solid red;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+.aryn{
+    text-align: left;
+    font-family: Calibri;
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: center;
+ }
+ 
+ .aryn h1{
+     margin-bottom: -30px;
+     color: brown;
+     font-size: 45px;
+     font-weight: bolder;
+ }
+ .aryn h5{
+     color: skyblue;
+     font-size: 20px;
+     margin-bottom: -15px;
+ }
+ .aryn p{
+     font-size: 25px;
+ }
