@@ -58,6 +58,16 @@ main{
     border-left: 4px solid #0e4f1f;
     text-align: right;
     position: relative;
+    overflow: hidden;
+
+    transform: translate(1px);
+    opacity: 0.7;
+    transition: all 50ms ease-in-out 1s;
+}
+
+#plus:hover{
+    transform: translate(-3rem);
+    opacity: 0.95;
 }
 
 .clearfix{
@@ -74,6 +84,9 @@ main{
     color: #ffffff;
     background-color: red;
     padding: 8px;
+    transform: rotate(-45deg) translate(-4rem, -1.8rem) ;
+    width: 16rem;
+    text-align: center;
 }
 
 .footy{

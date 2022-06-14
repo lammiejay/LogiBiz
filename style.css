@@ -144,7 +144,33 @@ footer{
     margin-top: -50px;
     padding-top: 20px;
     font-size: 20px;
-    color: white;
+    color: white ;
     font-family: 'Times New Roman', Times, serif;
     height: 200px;
+}
+
+@media (max-width: 600px), (min-width: 600px) and (max-width: 900px){
+    .main-nav-links{
+        text-align: center;
+    }
+    .overview{
+        height: 555vh;
+    }
+    .plan{
+        display: block;
+        width: 100%;
+        margin: 16px 0;
+    }
+    .plan-highlighted{
+        box-shadow: none;
+    }
+    .key-feature{
+        display: block;
+        width: 100%;
+        margin: 24px 0;
+    }
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+    }
 }

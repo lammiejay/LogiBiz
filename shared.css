@@ -38,6 +38,10 @@
     display: inline-block;
     margin: 0 16px;
 }
+.main-nav-link-cta{
+    animation: wiggle 200ms ease-in-out 0.5s 8 alternate-reverse backwards;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
 
 .main-nav-link > a{
     text-decoration: none;
@@ -60,4 +64,14 @@
     color: red;
     background-color: #ffffff;
     border: none;
+}
+
+@keyframes wiggle{
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(10deg);
+    }
+    
 }
