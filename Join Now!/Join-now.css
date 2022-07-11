@@ -22,6 +22,12 @@ main{
     padding: 0 30%;
 }
 
+.white-text{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
 #green-box{
     background-color: rgba(74, 236, 42, 0.4);
     width: 100%;

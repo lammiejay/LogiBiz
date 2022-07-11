@@ -66,6 +66,23 @@
     border: none;
 }
 
+@media (max-width: 500px){
+    
+    .brand_logo{
+        text-decoration: none;
+        color: #0e4f1f;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+        
+    .main-nav-link{
+        font-size: 14px;
+        display: inline-block;
+        margin: 0 0;
+    }
+}
+
 @keyframes wiggle{
     from{
         transform: rotateZ(0);
